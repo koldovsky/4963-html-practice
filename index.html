@@ -24,7 +24,18 @@
         data-hx-get="index.header-hero.partial.html"
       ></div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.best-deals.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.newsletter.partial.html"
+      ></section>
+    </main>
     <footer
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
